@@ -15,8 +15,8 @@ const ErrorPage = () => {
             <Heading fontSize={"6xl"}>Oops...</Heading>
             <Text>
               {isRouteErrorResponse(error)
-                ? error.error?.message
-                : "Unexpected error"}
+                ? error.statusText
+                : "Something went wrong, please refresh the page"}
             </Text>
           </CardBody>
         </Card>
