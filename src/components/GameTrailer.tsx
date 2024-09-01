@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import useTrailers from "../hooks/useTrailers";
 import { Text } from "@chakra-ui/react";
 
@@ -16,7 +17,7 @@ const GameTrailer = ({ gameId }: Props) => {
   return first ? (
     <video src={first.data[480]} poster={first.preview} controls />
   ) : (
-    <Text color={"red.300"}>No Video Trailer Found ...</Text>
+    <Text></Text>
   );
 };
 
