@@ -30,7 +30,6 @@ function SearchInput() {
         <InputGroup>
           <InputLeftElement children={<BsSearch />} />
           <Input
-            borderColor={"gray.500"}
             borderRadius={20}
             placeholder="Search games..."
             variant={"filled"}
