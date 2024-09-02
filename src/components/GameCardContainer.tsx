@@ -10,7 +10,7 @@ function GameCardContainer({ children }: Props) {
     <Box
       _hover={{
         transform: "scale(1.03)",
-        transition: "transform .15s ease",
+        transition: "transform .15s ease-in",
       }}
       width={"100%"}
       borderRadius={10}
