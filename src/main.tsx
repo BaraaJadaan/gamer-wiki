@@ -5,7 +5,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import App from "./App";
 import theme from "./theme";
-import "./main.scss";
 import { RouterProvider } from "react-router-dom";
 import router from "./routes";
 

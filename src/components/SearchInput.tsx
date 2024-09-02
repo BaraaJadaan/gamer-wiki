@@ -1,5 +1,4 @@
 import {
-  baseTheme,
   Box,
   Input,
   InputGroup,

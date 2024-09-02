@@ -1,4 +1,4 @@
-import { AiOutlineStar } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 
 export interface FetchResponse<T> {
   count: number;
@@ -59,26 +59,26 @@ export interface GameQuery {
 
 export const meh = (
   <>
-    <AiOutlineStar />
-    <AiOutlineStar />
-    <AiOutlineStar />
+    <AiFillStar />
+    <AiFillStar />
+    <AiFillStar />
   </>
 );
 
 export const recommended = (
   <>
-    <AiOutlineStar />
-    <AiOutlineStar />
-    <AiOutlineStar />
-    <AiOutlineStar />
+    <AiFillStar />
+    <AiFillStar />
+    <AiFillStar />
+    <AiFillStar />
   </>
 );
 export const exceptional = (
   <>
-    <AiOutlineStar />
-    <AiOutlineStar />
-    <AiOutlineStar />
-    <AiOutlineStar />
-    <AiOutlineStar />
+    <AiFillStar />
+    <AiFillStar />
+    <AiFillStar />
+    <AiFillStar />
+    <AiFillStar />
   </>
 );
