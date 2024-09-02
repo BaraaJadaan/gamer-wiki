@@ -1,7 +1,7 @@
-# games-react-typescript
+# Gamer Wiki
 
-A Games search portal v2 built with React, TypeScript &amp; https://rawg.io/ API
-and REFACTORED with React Query and Zustand.
+A Games search portal built with React, TypeScript &amp; https://rawg.io/ API
+with React Query and Zustand.
 
 Vite was used to build this...
 
